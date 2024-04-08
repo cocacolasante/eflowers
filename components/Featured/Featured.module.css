@@ -1,0 +1,8 @@
+/* Featured.module.css */
+.featuredContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* This spreads out the cards nicely. Adjust as needed. */
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  

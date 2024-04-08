@@ -1,0 +1,51 @@
+/* Ensure .navContainer initially has a white background */
+.navContainer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    position: fixed; /* Make navbar fixed */
+    width: 100%; /* Ensure it spans the full width */
+    top: 0;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    background-color: black; /* Default background */
+    color: white; /* Adjust text color as needed */
+    z-index: 1000; /* Ensure navbar is above other content */
+    opacity: .7;
+  }
+  
+  /* Style applied when scrolled */
+  .scrolled {
+    background-color: black; /* Background color when scrolled */
+    color: white; /* Adjust text color for scrolled state */
+  }
+  
+  .nav {
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+  }
+  
+  .navItem {
+    transition: transform 0.3s ease;
+  }
+  
+  .navItem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .navItem a, .navItem a:visited {
+    color: inherit; /* Ensures link color matches the parent item's color, typically black or white based on your design */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navItem a:hover {
+    color: #fff; /* Example hover color, adjust as needed */
+    text-decoration: underline; /* Adds an underline on hover, optional */
+  }
+  

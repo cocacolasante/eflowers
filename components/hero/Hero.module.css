@@ -1,0 +1,21 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    min-height: 80vh;
+    margin-top: 100px;
+}
+
+.title h1 {
+    margin: 0 0 20px; /* Adjust the bottom margin to create space between the title and the button */
+}
+
+.button {
+    padding: 10px 20px; /* Adjust padding as needed for button size */
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
