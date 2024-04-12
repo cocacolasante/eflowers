@@ -2,9 +2,9 @@ import styles from "./CallToAction.module.css"
 
 const CallToAction = () => {
   return (
-    <div>
+    <div className={styles.callToActionContainer}>
         <h2>Need Help Planning?</h2>
-        <button >Request a quote</button>
+        <button className={styles.callToActionButton}>Request a quote</button>
     </div>
   )
 }

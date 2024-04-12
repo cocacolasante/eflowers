@@ -1,8 +1,13 @@
 import React from 'react'
+import Services from '../../../components/services/Services'
+import CallToAction from '../../../components/calltoaction/CallToAction'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Services />
+      <CallToAction />
+    </div>
   )
 }
 

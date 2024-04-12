@@ -1,0 +1,15 @@
+/* Services.module.css */
+.servicesContainer {
+    display: flex;
+    justify-content: center; /* Aligns the cards horizontally in the center */
+    gap: 20px; /* Adds space between each card */
+  }
+  
+  .servicesHeader {
+    text-align: center; /* Centers the title text */
+    margin-bottom: 20px; /* Provides spacing between the title and the cards */
+  }
+
+.mainContainer {
+    margin-top: 175px;
+}

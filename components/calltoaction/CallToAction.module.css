@@ -1,0 +1,25 @@
+/* CallToAction.module.css */
+.callToActionContainer {
+    background-image: url('/path-to-your-image.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 40px 20px; /* Padding for spacing */
+    text-align: center; /* Center-align text */
+    color: #fff; /* White text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 300px; /* Adjust based on your preference */
+  }
+  
+  .callToActionButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF; /* Example button color, change as needed */
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px; /* Spacing between text and button */
+  }
+  

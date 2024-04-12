@@ -1,0 +1,17 @@
+/* AboutUs.module.css */
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This takes the full height of the viewport */
+    text-align: center; /* Centers the text horizontally */
+  }
+  
+  .aboutUsTitle {
+    margin-bottom: 20px; /* Adds some space between the title and the text */
+  }
+  
+  .aboutUsText {
+  }
+  
