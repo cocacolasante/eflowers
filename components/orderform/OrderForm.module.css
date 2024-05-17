@@ -1,0 +1,40 @@
+/* components/OrderForm.module.css */
+.orderSection {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .orderForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+  }
+  
+  .input,
+  .select,
+  .textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .textarea {
+    height: 150px;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
