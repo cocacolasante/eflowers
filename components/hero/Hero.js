@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className={styles.hero} >
         <div className={styles.title}>
-            <h1>Hero Div</h1>
+            <h1>Luxe Celebrations</h1>
         </div>
         <div>
             <button className={styles.button} >Request Information</button>

@@ -9,6 +9,7 @@ const AboutUs = () => {
         <div className={styles.aboutUsText}>
             <p>lorem ipsem</p>
         </div>
+
     </div>
   )
 }

@@ -6,6 +6,10 @@
     align-items: center;
     height: 100vh; /* This takes the full height of the viewport */
     text-align: center; /* Centers the text horizontally */
+    background-image: url("../../public/hpbday.jpeg");
+    background-position: bottom;
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
   }
   
   .aboutUsTitle {

@@ -11,6 +11,10 @@
     align-items: center; /* Align items vertically */
     justify-content: center; /* Center content horizontally */
     height: 300px; /* Adjust based on your preference */
+    background-image: url("../../public/birthday.jpeg");
+    background-position: top;
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
   }
   
   .callToActionButton {
